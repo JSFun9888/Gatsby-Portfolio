@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import Video from '../Video/Video';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);

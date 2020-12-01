@@ -5,6 +5,7 @@ import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
+
 const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
@@ -50,14 +51,15 @@ const About = () => {
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
+                    <iframe 
+                      width="620px" 
+                      height="565px" 
+                      src="https://www.yumpu.com/en/embed/view/tgAVF2DfE3Z7v0eb" 
+                      frameborder="0" 
+                      allowfullscreen="true"  
+                      allowtransparency="true">
+                    </iframe>
+                    
                   </span>
                 )}
               </div>
