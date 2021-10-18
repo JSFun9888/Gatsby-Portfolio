@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'BORED.PNG',
+    img: 'BORED.png',
     title: 'Bored',
     info: '*(Still in development)* A group web dev project where we are to create a website of our choosing and deliver weekly sprint reports based on our progress each week. My group is creating a website where "Bored" people can come and find activities to fill their time. Users can generate activities which are obtained through the Bored api, are able to create user profiles to save activities and even compete on our leaderboard to complete the most activities! We are using React.js for the frontend, Express and MongoDB for the backend and database respectively.',
     info2: 'Will provide a link once the website is deployed! Stay tuned!',
