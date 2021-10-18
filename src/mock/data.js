@@ -46,11 +46,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'NNFS.PNG',
-    title: 'Learning Neural Networks From Scratch',
-    info: 'This is a project that is aimed at learning all about neural networks and how to implement them from scratch. I have a keen interest in machine learning and neural networks so I was pretty excited to come across the book "Neural Networks From Scratch" and have been learning all about them!',
-    info2: 'If you would also like to learn about neural networks and how to build them from scratch then I recommend checking out the link below!',
-    url: 'https://youtu.be/Wo5dMEP_BbI',
+    img: 'PEXPRESS.PNG',
+    title: 'Poem Express',
+    info: 'A class project where we were tasked to create a poetry sharing website using React.js for the frontend and Express for the backend server. Users can share their own poetry to the website and also vote for poems that they like.',
+    info2: 'You can check out the website below!',
+    url: 'https://poem-express-js.herokuapp.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'RAV.PNG',
+    title: 'Ravenous',
+    info: 'A project completed through CodeCademy where I created a website where users can search for restaurants based on searchable criteria and then it will return a list of restaurants matching the criteria along with a star rating obtained through the Yelp api.',
+    info2: 'You can check out the website below!',
+    url: 'https://ravenous-js.netlify.app/',
     repo: '', // if no repo, the button will not show up
   },
 ];
