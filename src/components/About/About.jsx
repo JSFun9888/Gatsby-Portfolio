@@ -49,10 +49,11 @@ const About = () => {
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
+
                     <iframe 
                       width="320px" 
                       height="425px" 
-                      src="https://www.yumpu.com/en/embed/view/tgAVF2DfE3Z7v0eb" 
+                      src="https://www.yumpu.com/en/embed/view/pwkN2AsiH6nVK5bC" 
                       frameborder="0" 
                       allowfullscreen="true"  
                       allowtransparency="true">
