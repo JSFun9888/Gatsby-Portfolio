@@ -28,21 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'MQAT.PNG',
-    title: 'MQ-ATS (Macquarie Autonomous Transit System: Monorail)',
-    info: 'A vertically integrated group project to build an autonomous transit system. The vehicle we created was a monorail that traversed along a rail, delivering a payload to 3 destination stations.',
-    info2: 'My group (T1C1) was responsible for the creation of the state machine and we had a great time trying to complete this project over the 13 week semester.',
-    url: 'https://youtu.be/P-p-UXXPsso',
+    img: 'BORED.png',
+    title: 'Bored',
+    info: 'A group web dev project where we are to create a website of our choosing and deliver weekly sprint reports based on our progress each week. My group is creating a website where "Bored" people can come and find activities to fill their time. Users can generate activities which are obtained through the Bored api, are able to create user profiles to save activities and even compete on our leaderboard to complete the most activities! We are using React.js for the frontend, Express and MongoDB for the backend and database respectively.',
+    info2: 'You can check out the website below!',
+    url: ' https://shrouded-hollows-90470.herokuapp.com/',
     repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'TTT.PNG',
-    title: 'Computer AI for Tic Tac Toe game',
-    info: 'This mini project of mine was to try and create a working AI for the game Tic Tac Toe. I used the minimax alogorithm for the computers logic and I plan on implementing alpha beta pruning in the future.',
-    info2: 'I was inspired to create a game AI after watching The Queens Gambit and remembering my interest in AI\'s, so I tried my hand at making one! Press the link below to see the youtube video that gave me the help I needed to create this!',
-    url: 'https://youtu.be/trKjYdBASyQ',
-    repo: 'https://github.com/JSFun9888/TicTacToe', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -64,12 +55,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'BORED.png',
-    title: 'Bored',
-    info: 'A group web dev project where we are to create a website of our choosing and deliver weekly sprint reports based on our progress each week. My group is creating a website where "Bored" people can come and find activities to fill their time. Users can generate activities which are obtained through the Bored api, are able to create user profiles to save activities and even compete on our leaderboard to complete the most activities! We are using React.js for the frontend, Express and MongoDB for the backend and database respectively.',
-    info2: 'You can check out the website below!',
-    url: ' https://shrouded-hollows-90470.herokuapp.com/',
+    img: 'MQAT.PNG',
+    title: 'MQ-ATS (Macquarie Autonomous Transit System: Monorail)',
+    info: 'A vertically integrated group project to build an autonomous transit system. The vehicle we created was a monorail that traversed along a rail, delivering a payload to 3 destination stations.',
+    info2: 'My group (T1C1) was responsible for the creation of the state machine and we had a great time trying to complete this project over the 13 week semester.',
+    url: 'https://youtu.be/P-p-UXXPsso',
     repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'TTT.PNG',
+    title: 'Computer AI for Tic Tac Toe game',
+    info: 'This mini project of mine was to try and create a working AI for the game Tic Tac Toe. I used the minimax alogorithm for the computers logic and I plan on implementing alpha beta pruning in the future.',
+    info2: 'I was inspired to create a game AI after watching The Queens Gambit and remembering my interest in AI\'s, so I tried my hand at making one! Press the link below to see the youtube video that gave me the help I needed to create this!',
+    url: 'https://youtu.be/trKjYdBASyQ',
+    repo: 'https://github.com/JSFun9888/TicTacToe', // if no repo, the button will not show up
   },
 ];
 
